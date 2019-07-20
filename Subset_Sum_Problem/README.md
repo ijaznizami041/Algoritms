@@ -6,3 +6,6 @@ Methodology :
 I have created a list of the set of non-negative integers.
 Created a func SumSetVariables(List<int> set, int sum) with return type List<int>, return the values equal to the sum.
 Created a func Add(int x,int y) to add two numbers and returm the sum:int.  
+
+
+Credits : https://www.geeksforgeeks.org/subset-sum-problem-dp-25/
