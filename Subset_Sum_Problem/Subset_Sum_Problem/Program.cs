@@ -18,14 +18,14 @@ namespace Subset_Sum_Problem
             set.Add(5);
             set.Add(2);
             int sum = 7;
-            List<int> sum_set = Sum_Set(set,sum);
+            List<int> sum_set = SumSetVariables(set,sum);
             foreach (var item in sum_set)
             {
                 Console.WriteLine(item);
             }
         }
 
-        private static List<int> Sum_Set(List<int> set, int sum)
+        private static List<int> SumSetVariables(List<int> set, int sum)
         {
             List<int> sum_set = new List<int>();
             for (int i = 0; i < set.Count-1; i++)
